@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.22.2",
+    "libraryName": "jira-spfx",
+    "libraryId": "a8c5e4f2-3b9d-4e5f-8c7d-1a2b3c4d5e6f",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

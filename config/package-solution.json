@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jira-spfx-client-side-solution",
+    "id": "a8c5e4f2-3b9d-4e5f-8c7d-1a2b3c4d5e6f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Jira Tickets SPFx web part"
+      },
+      "longDescription": {
+        "default": "A SharePoint Framework web part that displays Jira tickets assigned to the logged in user"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": []
+  },
+  "paths": {
+    "zippedPackage": "solution/jira-spfx.sppkg"
+  }
+}
