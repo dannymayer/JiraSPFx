@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build output
+lib
+dist
+temp
+release
+*.sppkg
+
+# Generated SCSS type files (created by the SPFx build toolchain)
+src/**/*.scss.ts
+
+# IDE files
+.vscode
+.DS_Store
+
+# SharePoint workbench config
+config/sass.json

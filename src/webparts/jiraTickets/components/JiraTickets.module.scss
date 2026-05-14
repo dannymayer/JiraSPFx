@@ -1,0 +1,189 @@
+.container {
+  padding: 16px;
+  font-family: var(--bodyText);
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--neutralPrimary);
+  margin: 0;
+}
+
+/* ── Toolbar ─────────────────────────────────────────────────────────────── */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.searchBox {
+  min-width: 240px;
+  flex: 1 1 240px;
+}
+
+.statusDropdown {
+  min-width: 160px;
+}
+
+/* ── Status badge ─────────────────────────────────────────────────────────── */
+.statusBadge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.statusTodo {
+  background-color: #dfe1e6;
+  color: #42526e;
+}
+
+.statusInProgress {
+  background-color: #deebff;
+  color: #0052cc;
+}
+
+.statusDone {
+  background-color: #e3fcef;
+  color: #006644;
+}
+
+.statusOther {
+  background-color: #fff0b3;
+  color: #172b4d;
+}
+
+/* ── Priority icon ────────────────────────────────────────────────────────── */
+.priorityIcon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+/* ── Issue key link ───────────────────────────────────────────────────────── */
+.issueKey {
+  font-weight: 600;
+  color: #0052cc;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* ── Feedback states ──────────────────────────────────────────────────────── */
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  color: var(--neutralSecondary);
+  text-align: center;
+  gap: 12px;
+}
+
+/* ── Detail panel ─────────────────────────────────────────────────────────── */
+.detailSection {
+  margin-bottom: 20px;
+}
+
+.detailSectionTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--neutralPrimary);
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--neutralLight);
+}
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 6px 12px;
+  font-size: 14px;
+}
+
+.metaLabel {
+  font-weight: 600;
+  color: var(--neutralSecondary);
+}
+
+.metaValue {
+  color: var(--neutralPrimary);
+  word-break: break-word;
+}
+
+.descriptionText {
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--neutralPrimary);
+  line-height: 1.5;
+}
+
+.commentItem {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--neutralLight);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.commentAuthor {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--neutralPrimary);
+}
+
+.commentDate {
+  font-size: 12px;
+  color: var(--neutralSecondary);
+  margin-left: 8px;
+}
+
+.commentBody {
+  margin-top: 4px;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--neutralPrimary);
+}
+
+.attachmentItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--neutralPrimary);
+}
+
+.label {
+  display: inline-block;
+  background: #dfe1e6;
+  color: #42526e;
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin: 2px;
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/config.2.0.0-0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jira-tickets-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jiraTickets/JiraTicketsWebPart.js",
+          "manifest": "./src/webparts/jiraTickets/JiraTicketsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JiraTicketsWebPartStrings": "lib/webparts/jiraTickets/loc/{locale}.js"
+  }
+}
